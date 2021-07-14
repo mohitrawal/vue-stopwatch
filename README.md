@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### Project Technology Description
+ ```
+Project is build on Tailwind, VueJs
+```
+
 ### Compiles and minifies for production
 ```
 npm run build

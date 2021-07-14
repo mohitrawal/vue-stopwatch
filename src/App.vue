@@ -8,7 +8,6 @@
             </div>
             <div class="grid grid-cols-6 gap-4">
                 <div class="col-start-2 col-span-4">
-                
                     <div class="mt-10 ml-80 w-41 h-56">
                         <div class="border-4 border-red-500 rounded-full h-40 w-40 flex items-center justify-center shadow-xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500" @click="startStopFunction">
                             <div class="text-2xl">
@@ -17,7 +16,6 @@
                         </div>
                         <p class='mt-2 text-sm italic text-gray-400'>Click on the Circle Start/Pause</p>
                     </div>
-
                     <div class="grid grid-cols-6">
                         <div class="col-start-3 col-span-5 mt-1 ml-20">
                             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" @click="resetTimer">
@@ -32,8 +30,6 @@
 </template>
 
 <script>
-
-
 export default {
     name: 'App',
     data: function () {
